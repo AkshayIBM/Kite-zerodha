@@ -14,11 +14,11 @@ public class BaseClass {// Setup Class
 	
 	public void initilizeBrowser() throws Throwable {
 		
-		//WebDriverManager.chromedriver().setup();
-		WebDriverManager.firefoxdriver().setup();
+		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.firefoxdriver().setup();
 		
-	//	driver=new ChromeDriver();
-		driver=new FirefoxDriver();
+		driver=new ChromeDriver();
+	//	driver=new FirefoxDriver();
 		
 	    //maximize
 	    driver.manage().window().maximize();
